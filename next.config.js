@@ -23,4 +23,6 @@ const nextConfig = withPWA({
     // swcMinify: false,
 });
 
-module.exports = nextConfig;
+module.exports = withPWA({
+    productionBrowserSourceMaps: true,
+});

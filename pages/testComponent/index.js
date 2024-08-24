@@ -1,10 +1,12 @@
 import TestComponent from '../../components/testComponent';
+import PwaInstaller from "../../components/PwaInstaller";
+
 
 export default function Home() {
     return (
         <div>
-            <h1>Home Page</h1>
             <TestComponent />
+            <PwaInstaller />
         </div>
     );
 }
